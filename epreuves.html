@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="sport détente">
+		<meta name="keywords" content="marathon, trails">
+		<meta name="author" content="Laurent DEMAZY">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="technicien informatique, administrateur réseaux, windows, linux">
+		<meta name="author" content="Laurent DEMAZY">
+		<meta http-equiv="refresh" content="300">
+		<meta name="color-scheme" content="dark light">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Marathons/trails</title>        
+        <link rel="stylesheet" href="style.css">
+		<script src="js/libs/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+		<style>
+			div{
+			color:chartreuse;
+			}
+
+			h1,h3{
+				color:chartreuse;
+			}
+		/* animation texte */
+		.text-effect{
+			font-family: Arial, Helvetica, sans-serif;
+			border-left: 3px solid gold;
+			padding-left: 25px;
+			transform: scaleY(0);
+			overflow: hidden;
+			animation: scale-up-border 1s forwards;
+		}
+
+		.text-effect .text-wrapper,
+		.text-effect .text-wrapper span{
+			display: block;
+			font-size: 1.5rem;
+		}
+
+		.text-effect .text-wrapper{
+			transform: translateX(calc(-100% -25px));
+			animation: slide-text-right 1s 0.5s forwards;
+		}
+
+		.text-effect .text-wrapper span:last-child{
+			font-weight: 700;
+		}
+
+		@keyframes scale-up-border{
+			to{
+				transform: scaleY(1);
+			}			
+		}
+
+		@keyframes .slide-text-right{
+			0%   {top: 0px;}
+  			25%  {top: 200px;}
+  			50%  {top: 100px;}
+  			75%  {top: 200px;}
+  			100% {top: 0px;}
+			}			
+		</style>
+</head>
+<body>
+    <div id="head">
+	</div>
+	<div id="nav">
+		
+		<div class="clearfix"></div>
+	</div>
+	<div id="main">
+		<img src="img/lac-annecy.jpg" alt="lac-annecy">
+		<div id='article'>
+		   <div class='content'>
+				<h1>Marathons ou plus...</h1>
+				<br>
+				<ul>
+					<p class="text-effect">
+						<span class="text-wrapper">
+							<span>7 fois Lyon</span>
+							<span>4 fois Annecy</span>
+							<span>2 fois Rennes</span>
+							<span>Paris</span>
+							<span>Montpelier</span>
+							<span>Montbrison</span>
+							<span>1 fois LE PUY-FIRMINY(2024)</span>
+							<span>2 Saintélyons</span>
+							<span>les cent km de Millau(2018)</span>
+							<span>4 fois les 24 heures de Roche en individuel</span>
+							<span>...</span>
+						</span>
+					</p>			
+				
+				
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+</body>
+</html>
