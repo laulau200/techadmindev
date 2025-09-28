@@ -1,0 +1,15 @@
+CREATE TABLE Membre
+( nomLogin		VARCHAR(20)	NOT NULL,
+  création		DATE 		NOT NULL,
+  mPasse		CHAR(255)	NOT NULL,
+  nom			VARCHAR(50), 
+  prenom		VARCHAR(40),
+  rue			VARCHAR(50),
+  ville			VARCHAR(50),
+  département	CHAR(2),
+  codePostal	CHAR(6),
+  email			VARCHAR(50),
+  Téléphone		CHAR(15),
+  fax			CHAR(15),
+  PRIMARY KEY(nomLogin);  
+  

@@ -1,0 +1,66 @@
+<?php
+/* Programme : Vitrine.php
+* Description : Ecran d'ouverture du catalogue des animaux
+*/
+?>
+<html>
+<head>
+<title>Vitrine de l'animalerie</title>
+</head>
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+    <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="center" valign="top">
+                <img src="catalogue/images/Name.gif" alt="Animalerie">
+                <p style="margin-top: 40 pt">
+                    <img src="catalogue/images/lizard-front.jpg" alt="image d'un animal"
+                    height="186" width="280">
+                    <p><h2>Vous cherchez un nouvel ami ? </h2>
+                <p>Feuilletez notre catalogue d'animaux domestiques</p><br>
+                Nous avons probablement ce que vous cherchez ! 
+</td>
+            </p>
+            </p>
+                </p>
+            </td>
+
+            <td width="27%" bgcolor="black">
+                <div style="color:white; link:white">
+                    <p style="text-align: center; font-size: 15pt">
+                        <b>Vous en voulez <br> plus ? </b></p>
+                    <ul>
+                        <li>Offres spéciales ? </li>
+                        <li>Informations sur les animaux</li>
+                        <li>Dialogues intéressants</li>
+                    </ul>
+                    <p style="text-align: center">Essayez la <br>
+                    <a href="/login.php" style="color:white">
+                        <b>Section réservée aux amis</b></a> de notre magasin
+                        <p style="text-align: center">
+                            <b>Cest gratuit ! </b>
+                        </p>
+</tr>
+                </div>
+                <img src="catalogue/images/Name.gif" alt="Animalerie">
+                <p style="margin-top: 40 pt">
+                    <img src="catalogue/images/lizard-front.jpg" alt="image d'un animal"
+                    height="186" width="280">
+                    <p><h2>Vous cherchez un nouvel ami ? </h2>
+                
+</td>
+            </p>
+            </p>
+                </p>
+            </td>
+
+
+
+
+
+
+        </tr>
+
+    </table>
+    
+</body>
+</html>

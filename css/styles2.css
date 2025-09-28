@@ -1,0 +1,111 @@
+section#main{
+    position: absolute;
+    width: 960px;
+    left: 50%;
+    margin-left: -480px;
+    margin-top: 10px;
+}
+
+header{
+    width: 920px;
+    height: 176px;
+    margin: 10px;
+    padding: 10px;
+}
+
+header h1{
+    line-height: 176px;
+    font-size: 2em;
+}
+
+nav{
+    width: 920px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+nav ul{
+    width: 920px;
+}
+
+nav ul li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #333;
+}
+
+nav ul li:last-child{
+    border-right: none;
+}
+
+article{
+    float: left;
+    width: 620px;
+    margin: 10px;
+    padding: 10px;
+}
+
+article h2{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+article p{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 1em;
+}
+
+article p:first-of-type img{
+    float: left;
+    padding-right: 10px;
+}
+
+article p:last-of-type img{
+    float: left;
+    padding-right: 10px;
+}
+
+aside{
+    float: right;
+    width: 270px;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 10px;
+
+}
+
+aside ul{
+    width: 240px;
+    padding: 0px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+aside ul li{
+    display: inline;
+    width: 100px;
+}
+
+aside ul li img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    clear: both;
+    width: 920px;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer p{
+    text-align: right;
+}

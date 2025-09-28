@@ -1,0 +1,94 @@
+section#main{
+    position: absolute;
+    width: 100%;
+}
+
+header{
+    margin: 10px;
+    padding: 10px;
+}
+
+header h1{
+    width: 100%;
+    display: table-cell;
+    vertical-align: center;
+    font-size: 1.5em;
+}
+
+nav{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+nav ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+nav ul li:nth-last-child{
+    border-bottom: none;
+}
+
+article{
+    margin: 10px;
+    padding: 10px;
+}
+
+article h2{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+article p{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 1em;
+}
+
+article p:first-of-type img{
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+article p:nth-last-of-type img{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+}
+
+aside{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+aside ul{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+aside ul li{
+    display: inline;
+}
+
+aside ul li img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin: 10px;
+    padding: 10px;
+}
+
+footer p{
+    text-align: right;
+}
