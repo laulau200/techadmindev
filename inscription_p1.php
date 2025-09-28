@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php
+//include "./commun/connexion.inc.php";
+?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+</head>
+<body>
+    pour vous inscrire dans le club, nous avons besoin de quelques renqseignements. Préparez un nom d'usage pour le club ainsi qu'un mot de passe de plus de huit caractères sont vous vous souviendrez facilement. 
+    <form action="inscription_p2" method="post" name="page_1">
+        <table cellspacing="2" cellpadding="2" border="0">
+            <tr>
+                <td>Votre prénom : </td>
+                <td><input type="text" name="prenom"></td>
+            </tr>
+
+            <tr>
+                <td>Votre adresse mail : </td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Votre ville : </td>
+                <td><input type="text" name="ville"></td>
+            </tr>
+            <td></td>
+            <td><input type="submit" name="Je m'inscris"></td>
+            </tr>
+        </table>
+        </form>
+    
+</body>
+</html>
